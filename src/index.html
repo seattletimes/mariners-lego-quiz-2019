@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Paytone+One:700,400,300' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
   </head>
   <body>
   <%= t.include("partials/_gtm.html") %>
@@ -78,6 +78,7 @@
             "answer": a.answer,
             "finalimage": a.finalimage,
             "correct": a.correct,
+            "description": a.follow
             "id": index
           };
           quizData[id].answers.push(answer);

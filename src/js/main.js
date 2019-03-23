@@ -58,7 +58,7 @@ $(".quiz-container").on("click", ".submit", function() {
   // score answer
   var answerData = { id, context: quizData[id] };
   var correct = $("input:checked").val();
-  if (correct) { 
+  if (correct) {
     score += 1;
     answerData.hooray = true;
   }
@@ -101,9 +101,9 @@ var calculateResult = function() {
     if (score >= result.min && score <= result.max) {
       // display result
       result.score = score;
-      if (result.score > 5) { 
+      if (result.score > 5) {
         result.color = "#589040";
-      } else if (result.score > 2) { 
+      } else if (result.score > 2) {
         result.color = "#F5AE3F";
       } else {
         result.color = "#e12329";
@@ -111,7 +111,7 @@ var calculateResult = function() {
       result.total = Object.keys(quizData).length;
 
       $(".question-box").html(ich.overviewTemplate(result));
-      
+
       new Share(".share-results", {
         description: "I scored " + result.score + "/" + result.total + "! " + document.querySelector(`meta[property="og:description"]`).content,
         ui: {
