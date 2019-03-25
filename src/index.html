@@ -68,7 +68,8 @@
             "question": q.question,
             "finalimage": q.finalimage,
             "hintimage": q.hintimage,
-            "image": q.image
+            "image": q.image,
+            "follow": q.follow
           };
         });
         json.Quiz_Answers.forEach(function(a, index) {
@@ -81,6 +82,7 @@
             "id": index
           };
           quizData[id].answers.push(answer);
+          
         });
       %>
       var quizData = <%= JSON.stringify(quizData) %>;

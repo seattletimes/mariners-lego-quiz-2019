@@ -1,6 +1,7 @@
 <div class="inner">
+  <div class="inner-box">
   <div class="img-class">
-    <img src="{{finalimage}}">
+    <img src="{{context.finalimage}}">
   </div>
 
   <div class="question-inner">
@@ -10,13 +11,17 @@
       <span class="highlight wrong">{{^hooray}}Wrong.{{/hooray}}</span>
 
       <div class="answer-box">
+        
         <span class="correct-answer">
           {{answer}}
         </span>
-        <div class="description">{{description}}</div>
+        <div class="description">{{follow}}</div>
+      
       </div>
+
     </div>
 
     <button class="next active">Next question <i class="fa fa-arrow-right"></i></button>
+  </div>
   </div>
 </div>

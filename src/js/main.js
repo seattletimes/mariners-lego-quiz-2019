@@ -9,6 +9,7 @@ var Share = require("share");
 var questionTemplate = require("./_questionTemplate.html");
 var overviewTemplate = require("./_overviewTemplate.html");
 
+
 // Set up templates
 ich.addTemplate("questionTemplate", questionTemplate);
 ich.addTemplate("overviewTemplate", overviewTemplate);
@@ -67,12 +68,13 @@ $(".quiz-container").on("click", ".submit", function() {
   quizData[id].answers.forEach(function(a) {
     if (a.correct) {
       answerData.answer = a.answer;
-      ["image", "link1", "link2"].forEach(p => answerData[p] = quizData[id][p]);
+      ["follow", "link1", "link2"].forEach(p => answerData[p] = quizData[id][p]);
     }
   });
 
   $(".question-box").html(ich.resultTemplate(answerData));
   $(".index").html(id + " of " + Object.keys(quizData).length);
+  console.log(answerData);
 
   // Change button text on last question
   if (id == Object.keys(quizData).length) {
