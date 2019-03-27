@@ -205,36 +205,53 @@
   },
   {
     "id": 13,
-    "answer": "Dylan Moore",
-    "correct": "x"
-  },
-  {
-    "id": 13,
-    "answer": "Hunter Strickland"
-  },
-  {
-    "id": 13,
-    "answer": "Yusei Kikuchi"
-  },
-  {
-    "id": 13,
-    "answer": "Shed Long"
-  },
-  {
-    "id": 14,
     "answer": "Jay Bruce"
   },
   {
-    "id": 14,
+    "id": 13,
     "answer": "Domingo Santana",
     "correct": "x"
   },
   {
-    "id": 14,
+    "id": 13,
     "answer": "Tim Beckham"
   },
   {
-    "id": 14,
+    "id": 13,
     "answer": "Edwin Encarnacion"
+  },
+  {
+    "id": 14,
+    "answer": "Justus Sheffield",
+    "correct": "x"
+  },
+  {
+    "id": 14,
+    "answer": "Erik Swanson"
+  },
+  {
+    "id": 14,
+    "answer": "Sam Tuivailala"
+  },
+  {
+    "id": 14,
+    "answer": "Hunter Strickland"
+  },
+  {
+    "id": 15,
+    "answer": "J.P Crawford"
+  },
+  {
+    "id": 15,
+    "answer": "Omar Narvaez"
+  },
+  {
+    "id": 15,
+    "answer": "Dylan Moore",
+    "correct": "x"
+  },
+  {
+    "id": 15,
+    "answer": "Domingo Santana"
   }
 ]

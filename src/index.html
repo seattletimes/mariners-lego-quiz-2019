@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Paytone+One:700,400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Paytone+One:700,400,300' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
@@ -51,12 +51,13 @@
         </div>
 
         <div class="sources">
-          Source: <span class="credit-name">Source Name</span>
+          Source: <span class="credit-name">Seattle Times research</span>
         </div>
 
         <div class="bottom-ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %></div>
       </div>
     </div>
+    
 
     <%= t.include("partials/_navBottom.html") %>
 
@@ -77,14 +78,16 @@
           if (!quizData[id].answers) { quizData[id].answers = [] }
           var answer = {
             "answer": a.answer,
-            "finalimage": a.finalimage,
             "correct": a.correct,
-            "description": a.follow
             "id": index
           };
           quizData[id].answers.push(answer);
           
         });
+        for (var q in quizData) {
+          quizData[q].answers.forEach((a, i) => a.initial = String.fromCharCode(65 + i));
+        }
+
       %>
       var quizData = <%= JSON.stringify(quizData) %>;
       var resultsData = <%= JSON.stringify(json.Quiz_Results) %>;
@@ -93,6 +96,7 @@
         description: "<%= json.project.description %>",
         url: "<%= json.project.url %>"
       }
+      
     </script>
 
     <script src="app.js"></script>

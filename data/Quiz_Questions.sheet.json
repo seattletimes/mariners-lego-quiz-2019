@@ -12,7 +12,7 @@
     "id": 2,
     "title": 2,
     "question": "I’m the opposite of Mr. Irrelevant — drafted No. 1 overall — but you can’t exactly say the same about my MLB career. The Mariners will be my third team since breaking in to the big leagues in 2013, and they’ll be hoping I can flash the potential I showed with the Orioles in the second half of 2017.",
-    "follow": "Realistically, Beckham might not decide his fate as much as time and J.P. Crawford’s performance at Triple-A. But, to accomodate Manny Machado, Beckham played more games away from shortstop last year than any previous season, giving him some additional positional flexibility that could keep him on the roster.",
+    "follow": "Realistically, Beckham might not decide his fate as much as time and J.P. Crawford’s performance at Triple-A. But, to accommodate Manny Machado, Beckham played more games away from shortstop last year than any previous season, giving him some additional positional flexibility that could keep him on the roster.",
     "image": "./assets/positionplayercard.jpg",
     "hintimage": "./assets/timbeckhamcard_clue.jpg",
     "finalimage": "./assets/timbeckhamcard_final.jpg"
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": 3,
-    "question": "My only time as a full-time closer came to an end when I broke my hand punching a dugout wall after blowing my second save in three games. But I’ve still got more saves — 19 — than anyone else on the roster, which sets me up to get the first shot at filling Edwin Diaz’s shoes.",
+    "question": "My only time as a full-time closer came to an end when I broke my hand punching a dugout wall after blowing my second save in three games. But I’ve still got more saves — 21 — than anyone else on the roster, which sets me up to get the first shot at filling Edwin Diaz’s shoes.",
     "follow": "Two of the Giants’ 2017 set-up men are now in Seattle’s bullpen, with Strickland joining Cory Gearrin. Just as in San Francisco, Strickland will get first shot at the closer’s job. He had a 2.84 ERA in 34 appearances when he sustained his injury and lost the job to Will Smith.",
     "image": "./assets/pitchercard.jpg",
     "hintimage": "./assets/hunterstricklandcard_clue.jpg",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": 4,
-    "question": "You might know me from my first tenure in Seattle. I wouldn’t blame you if you missed me, though; it lasted only a little longer than it takes for me to swipe a base, which I did 40 times in the first full-time role of my career last season.",
+    "question": "You might know me from my first tenure in Seattle. I wouldn’t blame you if you missed me, though; the tenure lasted roughly 76 minutes longer than it takes for me to swipe a base, which I did 40 times in the first full-time role of my career last season.",
     "follow": "It took all of 77 minutes for Jerry Dipoto to trade the speedy outfielder the first time he acquired him (in the package for Drew Smyly). Expect Smith to spend more time in the leadoff spot and roaming center field at T-Mobile Park this time around, following a 3.5-WAR season in Tampa Bay.",
     "image": "./assets/positionplayercard.jpg",
     "hintimage": "./assets/mallexsmithcard_clue.jpg",
@@ -110,19 +110,28 @@
   {
     "id": 13,
     "title": 13,
-    "question": "Have you heard of me? Wikipedia hasn’t! I’m the only player on the active roster without a page on the internet’s encyclopedia. Maybe that’s because I’ve never played a major-league game. But I earned my spot on the roster this spring, getting on-base nine times in 20 at-bats and proving my ability to play all over the field.",
-    "follow": "After being released by the Braves days before opening day last year, it must feel good for Moore to make the roster this time. The 26-year-old journeyman beat out Kris Negron to open the season as the Mariners’ utility man. Seattle will be his fourth MLB organization, but his first time on an active roster.",
-    "image": "./assets/positionplayercard.jpg",
-    "hintimage": "./assets/dylanmoorecard_clue.jpg",
-    "finalimage": "./assets/dylanmoorecard_final.jpg"
-  },
-  {
-    "id": 14,
-    "title": 14,
     "question": "My old team thanked me for a 30-homer season by going out and acquiring two All-Star outfielders, pushing me into part-time role. I’m thankful to be back in an everyday role next to Mallex Smith and Mitch Haniger in the Mariners’ outfield.",
     "follow": "Seattle acquired the 26-year-old outfielder on the cheap after he hit .265 with five home runs in 211 at-bats last season. In 2017, Santana batted .275 and slugged 30 long balls, for an on-base-plus-slugging percentage of .875 in 525 at-bats.",
     "image": "./assets/positionplayercard.jpg",
     "hintimage": "./assets/domingosantanacard_clue.jpg",
     "finalimage": "./assets/domingosantanacard_final.jpg"
+  },
+  {
+    "id": 14,
+    "title": 14,
+    "question": "I stand about six inches shorter than the lefty I was traded for, but — with a nasty slider headlining my repertoire — baseball evaluators are arguably even more bullish about my potential. Despite my size, I’ve been on scouts’ radars since I became the first Tennessean to be named Gatorade National Baseball Player of the Year back in 2014.",
+    "follow": "Baseball is in the Sheffield family genes. His older brother, Jordan, was drafted in the 13th round and is currently in the Dodgers organization. Justus will begin in Tacoma’s rotation, though many expect him to pitch off the T-Mobile Park mound before the end of 2019. “He has been awesome this spring. His changeup has been a real eye-opener. His confidence and poise have stood out,” Jerry Dipoto recently told The New York Post.",
+    "image": "./assets/pitchercard.jpg",
+    "hintimage": "./assets/justussheffieldcard_clue.jpg",
+    "finalimage": "./assets/justussheffieldcard_final.jpg"
+  },
+  {
+    "id": 15,
+    "title": 15,
+    "question": "Have you heard of me? Wikipedia hasn’t! I’m the only player on the active roster without a page on the internet’s encyclopedia. Maybe that’s because I’ve never played a major-league game. But I earned my spot on the roster this spring, getting on-base nine times in 20 at-bats and proving my ability to play all over the field.",
+    "follow": "After being released by the Braves days before opening day last year, it must feel good for Moore to make the roster this time. The 26-year-old journeyman beat out Kris Negron to open the season as the Mariners’ utility man. Seattle will be his fourth MLB organization, but his first time on an active roster.",
+    "image": "./assets/positionplayercard.jpg",
+    "hintimage": "./assets/dylanmoorecard_clue.jpg",
+    "finalimage": "./assets/dylanmoorecard_final.jpg"
   }
 ]

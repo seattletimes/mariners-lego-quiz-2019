@@ -1,5 +1,7 @@
 require("./lib/social");
 require("./lib/ads");
+var paywall = require("./lib/paywall");
+setTimeout(() => paywall(11411761), 3000);
 var track = require("./lib/tracking");
 
 var $ = require("jquery");
@@ -63,18 +65,20 @@ $(".quiz-container").on("click", ".submit", function() {
     score += 1;
     answerData.hooray = true;
   }
+  
 
   // keep track of selected answer
   quizData[id].answers.forEach(function(a) {
     if (a.correct) {
       answerData.answer = a.answer;
-      ["follow", "link1", "link2"].forEach(p => answerData[p] = quizData[id][p]);
+      ["image", "link1", "link2"].forEach(p => answerData[p] = quizData[id][p]);
+
     }
   });
 
   $(".question-box").html(ich.resultTemplate(answerData));
   $(".index").html(id + " of " + Object.keys(quizData).length);
-  console.log(answerData);
+  
 
   // Change button text on last question
   if (id == Object.keys(quizData).length) {

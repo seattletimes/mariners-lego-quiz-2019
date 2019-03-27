@@ -2,18 +2,25 @@
   {
     "title": "Mariners Master!",
     "max": 15,
-    "min": 12
+    "min": 12,
+    "description": "Clearly you're watching Jerry Dipoto's every move."
   },
   {
+    "title": "Dedicated Fan",
     "max": 11,
-    "min": 8
+    "min": 8,
+    "description": "Not bad! A healthy amount of knowledge about a new-look ballclub."
   },
   {
+    "title": "Casual Fan",
     "max": 7,
-    "min": 4
+    "min": 4,
+    "description": "It's OK, there's been a lot of turnover. Study up!"
   },
   {
+    "title": "See you in 2021?",
     "max": 0,
-    "min": 3
+    "min": 3,
+    "description": "Many of the Mariners are new here, and you might be, too!"
   }
 ]
